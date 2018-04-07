@@ -3,9 +3,21 @@ spring:
     name: config-client
   cloud:
     config:
-      uri: http://localhost:8080/
+#      uri: http://localhost:8080/
       profile: default
       label: master
+      discovery:
+        enabled: true
+        service-id: config-server
+    bus:
+      trace:
+        enabled: true
 
 server:
   port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["health","info","bus-refresh"]
