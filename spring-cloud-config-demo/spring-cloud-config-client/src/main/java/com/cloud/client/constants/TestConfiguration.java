@@ -2,14 +2,14 @@ package com.cloud.client.constants;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by Movie on 2018/4/7.
  */
 @ConfigurationProperties(prefix = "info")
+@Component
 @RefreshScope
-@Configuration
 public class TestConfiguration {
     private String from;
 

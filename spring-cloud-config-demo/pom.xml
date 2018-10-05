@@ -18,6 +18,9 @@
 		<module>service-ribbon</module>
 		<module>service-feign</module>
 		<module>service-zuul</module>
+		<module>zipkin-server</module>
+		<module>zipkin-server1</module>
+		<module>zipkin-server2</module>
 	</modules>
 
 	<!--<parent>
