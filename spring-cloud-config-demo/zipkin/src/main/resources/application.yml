@@ -1,13 +1,19 @@
 spring:
   application:
     name: zipkin
+
   datasource:
     url: jdbc:mysql://localhost:3306/zipkin
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+
+  sleuth:
+      sampler:
+        percentage: 1.0
+      enabled: true
 zipkin:
    storage:
       type: mysql
 server:
-  port: 8081
+  port: 9411

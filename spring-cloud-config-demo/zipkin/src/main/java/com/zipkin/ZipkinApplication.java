@@ -7,12 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import zipkin.server.EnableZipkinServer;
 import zipkin.storage.mysql.MySQLStorage;
 
 import javax.sql.DataSource;
 
 @SpringBootApplication
 @RestController
+@EnableZipkinServer
 public class ZipkinApplication {
     private static final Logger log = LoggerFactory.getLogger(ZipkinApplication.class);
 

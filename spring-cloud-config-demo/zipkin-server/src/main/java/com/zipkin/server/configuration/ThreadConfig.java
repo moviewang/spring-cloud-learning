@@ -15,7 +15,6 @@ import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 import javax.annotation.Resource;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
-import zipkin.server.*;
 
 /**
  * @Author: movie
