@@ -21,6 +21,7 @@
 		<module>zipkin-server</module>
 		<module>zipkin-server1</module>
 		<module>zipkin-server2</module>
+		<module>eureka-client</module>
 	</modules>
 
 	<!--<parent>
