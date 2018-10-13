@@ -22,6 +22,8 @@
 		<module>zipkin-server1</module>
 		<module>zipkin-server2</module>
 		<module>eureka-client</module>
+		<module>eureka-client</module>
+		<module>lucy-service</module>
 	</modules>
 
 	<!--<parent>

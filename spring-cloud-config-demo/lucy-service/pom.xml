@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.ribbon</groupId>
-	<artifactId>ribbon-service</artifactId>
+	<groupId>com.lucy</groupId>
+	<artifactId>lucy-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ribbon-service</name>
+	<name>lucy-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -30,7 +30,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+			<artifactId>spring-cloud-starter-netflix-lucy</artifactId>
 		</dependency>
 
 		<dependency>

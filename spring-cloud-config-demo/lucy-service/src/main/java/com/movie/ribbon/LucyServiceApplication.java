@@ -15,10 +15,10 @@ import org.springframework.web.client.RestTemplate;
 @EnableHystrix
 @EnableHystrixDashboard
 @EnableCircuitBreaker
-public class RibbonServiceApplication {
+public class LucyServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RibbonServiceApplication.class, args);
+		SpringApplication.run(LucyServiceApplication.class, args);
 	}
 
 	@Bean
